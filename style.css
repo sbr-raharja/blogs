@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styling */
+  .hero {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
